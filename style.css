@@ -1,0 +1,125 @@
+
+.circle{
+    height: 90px;
+    width:90px;
+    border-radius: 50%;
+    border: 20px;
+    background-color: aqua;
+    overflow: hidden;
+    margin: 20px;
+   
+    /*transition: all 0.5s ;*/
+    
+}
+.circleC{
+  height: 90px;
+  width:90px;
+  border-radius: 50%;
+  border: 20px;
+  background-color: aqua;
+  overflow: hidden;
+  margin: 20px;
+ 
+  
+  
+}
+
+
+
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+body{
+    background-color: rgb(12, 12, 12);
+    color:azure;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+h1 {
+    text-align: center;
+    color: #44e9ff;
+    font-family: 'Press Start 2P', cursive;
+  text-shadow: -3px -3px 4px #e747c2 ;
+  opacity: 0.88;
+  margin: 65px 0 ;
+}
+.bottomSelection{
+display: flex;
+
+
+}
+.Selection{
+max-width: fit-content;
+margin: 0 ;
+padding: 0;
+}
+
+.rock{
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.circle:hover{
+    cursor: pointer;
+   
+}
+
+.showResult{
+height: 300px;
+width: 500px;
+/*background-color: #44e9ff;*/
+
+}
+
+.gameScope{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.PC {
+display: flex;
+justify-content: space-between;
+font-weight: bolder;
+font-size: 1.3rem;
+padding: 0 25px ;
+}
+
+h2{
+  text-align: center;
+ padding: 10px 0 0 0;
+margin-bottom: 8px;
+}
+
+.move-right {
+    animation: move-right 0.05s ease 3.5;
+     box-shadow: 0 0 0.7rem 0.3rem  #e241cf ;
+  }
+@keyframes move-right {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100%{
+      transform: translateX(-5px);
+    }
+  }
+  span {
+margin: 0 25px;
+  }
+  .rround{
+font-weight: bolder;
+font-size: 1.3rem;
+text-align: center;
+margin-bottom: 35px;
+  }
+  
